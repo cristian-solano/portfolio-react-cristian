@@ -1,0 +1,130 @@
+.contact-container {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px 40px;
+}
+
+.contact-content {
+    background-color: #061133;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info h3 {
+    font-size: 25px;
+    color: #0BC92F;
+    font-weight: bold;
+}
+
+.contact-info-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.contact-info-items {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contact-social {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #0f1c42;
+}
+
+.contact-social .contact-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s
+}
+
+.contact-back img {
+    width: 50px;
+}
+
+.contact-back:hover {
+    transform: scale(1.2);
+}
+
+.contact-social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-social-links h3 {
+    font-size: 25px;
+    color: #0BC92F;
+}
+
+.contact-social-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.contact-social-icons img {
+    width: 50px;
+    transition: 0.4s;
+}
+
+.contact-social-icons img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 915px) {
+    .contact-info {
+        width: 300px;
+    }
+
+    .contact-social {
+        width: 300px;
+    }
+}
+
+@media (max-width: 625px) {
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+    }
+}

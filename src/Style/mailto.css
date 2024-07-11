@@ -1,0 +1,31 @@
+.mail-content {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #01082b;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.mail-content a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-content a img {
+    width: 40px;
+}
+
+.mail-content:hover {
+    background: #021570;
+}
+

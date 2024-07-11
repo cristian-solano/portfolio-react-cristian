@@ -1,0 +1,377 @@
+.banner-container {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #040115e8, #010b1bd8), url('../Images/bannernew.jpg');
+    background-size: cover;
+}
+
+.banner-content {
+    width: 100%;
+    height: 600px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.banner-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+
+
+.banner-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #000000c1;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.banner-image:hover .banner-opacity {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.banner-opacity-content {
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-opacity-content span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.banner-image .banner-opacity-content img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+}
+
+.banner-paragraph {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px 60px 30px;
+    background-color: #06001512;
+    transition: 1s;
+    position: relative;
+    border-top: 1px solid #fff;
+}
+
+.banner-paragraph:hover {
+    box-shadow: rgb(44, 40, 40) 0px 7px 29px 0px;
+}
+
+.banner-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.banner-title h2 {
+    font-size: 40px;
+}
+
+.banner-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px;
+}
+
+.banner-title .banner-name h2 {
+    font-size: 18px;
+}
+
+.banner-images-tech {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}  
+
+.banner-button {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #120123;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    cursor: pointer;
+}
+
+.banner-button p {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.banner-view-more-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 0 40px 0;
+    overflow-y: auto;
+    background-color: #0000009d;
+    z-index: 2;
+}
+
+#banner-more:checked + .banner-view-more-container {
+    display: flex;
+}
+
+.banner-view-more-closed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner-view-more-closed p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner-view-content {
+    width: 90%;
+    background-color: #040115;
+    color: #ffffff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner-view-items {
+    background: linear-gradient(to top, #111111a4, #04042fb9) /* url('../Images/image_de_prueba.jpg'); */;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.banner-view-opacity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.banner-view-opacity h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner-view-opacity p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.banner-view-overflow-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d2;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.banner-view-items:hover .banner-view-overflow-1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.banner-view-overflow-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d2;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.banner-view-items:hover .banner-view-overflow-2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.banner-view-overflow-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d2;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.banner-view-items:hover .banner-view-overflow-3 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.banner-view-p {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.banner-view-img {
+    width: 50px;
+}
+
+
+@media (max-width: 1400px) {
+    .banner-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .banner-title h2 {
+        text-align: center;
+    }
+
+    .banner-images-tech img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner-title h2 {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-view-opacity h3 {
+        font-size: 20px;
+    }
+
+    .banner-view-items {
+        height: 300px;
+    }
+}
+
+@media (max-width: 614px) {
+    .banner-view-content {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .banner-view-items { 
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .banner-content {
+        padding: 100px 0 0 0;
+        height: 100%;
+        flex-direction: column;
+
+    }
+
+    .banner-button {
+        width: 200px;
+    }
+
+
+    .banner-view-more-container {
+        padding: 40px 0 40px 0;
+    }
+
+    .banner-title .banner-name  {
+        display: none;
+    }
+}
