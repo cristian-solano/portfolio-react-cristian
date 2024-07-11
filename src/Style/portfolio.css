@@ -146,6 +146,13 @@
     width: 20px;
 }
 
+
+.port-label img {
+    display: none;
+    width: 20px;
+}
+
+
 .port-label a {
     font-size: 15px;
     text-transform: uppercase;
@@ -203,6 +210,14 @@
         display: flex;
     }
 
+    .port-label img {
+        display: flex;
+    }
+
+    .port-label p {
+        display: none;
+    }
+
     .port-label a p{
         display: none;
     }
@@ -240,7 +255,7 @@
 
     .port-projects-paragraph {
         width: 200px;
-        height: 100px;
+        height: 88px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
     }

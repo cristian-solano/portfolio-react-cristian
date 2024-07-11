@@ -29,7 +29,6 @@ const Portfolio = () => {
           <div className='port-projects-paragraph'>
             <p>Moya's Project</p>
             <label className='port-label'>
-              
               <a href="https://moya.us/maritime"><p>View page</p> <img src={links} alt="enlace"/></a>
             </label>
           </div>
@@ -38,7 +37,6 @@ const Portfolio = () => {
         <div className='port-projects-paragraph'>
             <p>Moya's Project</p>
             <label className='port-label'>
-              
               <a href="https://template-website-moya.netlify.app/" target='black'><p>View page</p> <img src={links} alt="enlace"/></a>
             </label>
           </div>
@@ -47,7 +45,7 @@ const Portfolio = () => {
           <div className='port-projects-paragraph'>
             <p>Nobara's Project</p>
             <label className='port-label' htmlFor='label-ooftu'>
-              <a><p>View page</p> <img src={links} alt="enlace"/></a>
+              <p>View page</p> <img src={links} alt="enlace"/>
             </label>
           </div>
         </div>
