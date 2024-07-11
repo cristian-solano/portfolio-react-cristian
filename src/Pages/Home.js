@@ -19,7 +19,7 @@ import wordpress from '../Images/wordpressIcon.png'
 import reactIcon from '../Images/reactIcon.png'
 import Js from '../Images/JSIcon.png'
 import { Link } from 'react-router-dom'
-
+      
 const Home = () => {
 
   const BtnDescription = () => {
