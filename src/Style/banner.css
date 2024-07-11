@@ -203,7 +203,7 @@
 }
 
 .banner-view-items {
-    background: linear-gradient(to top, #111111a4, #04042fb9) /* url('../Images/image_de_prueba.jpg'); */;
+    background: linear-gradient(to top, #111111a4, #04042fb9), url('../Images/perfomance.jpg');;
     background-size: cover;
     width: 350px;
     height: 500px;
