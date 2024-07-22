@@ -86,9 +86,9 @@
     border: 1px solid #fff;
     color: #fff;
     transition: all ease-in-out 0.5s;
-    background: url('../Images/weatherapp.png');
+    background: url('../Images/landingAna.png');
     background-size: cover;
-    background-position: center;
+    background-position: start;
     border-radius: 10px;
     opacity: 0.5;
 }

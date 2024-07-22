@@ -45,15 +45,15 @@ const Portfolio = () => {
           <div className='port-projects-paragraph'>
             <p>Nobara's Project</p>
             <label className='port-label' htmlFor='label-ooftu'>
-              <p>View page</p> <img src={links} alt="enlace"/>
+              <p>VIEW PAGE</p> <img src={links} alt="enlace"/>
             </label>
           </div>
         </div>
         <div className='port-projects port-projects6'>
          <div className='port-projects-paragraph'>
-            <p>Personal Project</p>
+            <p>Freelance Project</p>
             <label className='port-label'>
-              <a href='https://weatherapp-cris.netlify.app/' target='blank'><p>View page</p> <img src={links} alt="enlace"/></a>
+              <a href='https://psicologa-ana-jaramillo.netlify.app/' target='blank'><p>View page</p> <img src={links} alt="enlace"/></a>
             </label>
           </div>
         </div>
