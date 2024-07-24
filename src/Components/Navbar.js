@@ -16,7 +16,7 @@ const Navbar = () => {
       <input id="navbar_icon" type='checkbox' style={{display: "none"}}/>
       <div className='navbar-links'>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/about-us">About us</NavLink>
+        <NavLink to="/about-us">About me</NavLink>
         <NavLink to="/portfolio">Projects</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </div>
