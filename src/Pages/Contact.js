@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='contact-social'>
-          <Link className='contact-back' to="/home">
+          <Link className='contact-back' to="/">
             <img src={home} alt="home"/>
             <p>Go to home</p>
           </Link>

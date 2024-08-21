@@ -57,6 +57,14 @@ const Portfolio = () => {
             </label>
           </div>
         </div>
+        <div className='port-projects port-projects7'>
+         <div className='port-projects-paragraph'>
+            <p>Personal Project</p>
+            <label className='port-label'>
+              <a href='https://image-digital-adventure.netlify.app/' target='blank'><p>View page</p> <img src={links} alt="enlace"/></a>
+            </label>
+          </div>
+        </div>
         <input type='checkbox' id="label-ooftu" style={{display: "none"}}/>
         <div className='port-view-ooftu'>
           <label htmlFor='label-ooftu' className='label-ooftu-closed'>
