@@ -17,6 +17,14 @@ const Portfolio = () => {
             </label>
           </div>
         </div>
+        <div className='port-projects port-projects8'>
+         <div className='port-projects-paragraph'>
+            <p>Personal Project</p>
+            <label className='port-label'>
+              <a href='https://dragonball-skills.netlify.app/' target='blank'><p>View page</p> <img src={links} alt="enlace"/></a>
+            </label>
+          </div>
+        </div>
         <div className='port-projects port-projects2'>
           <div className='port-projects-paragraph'>
             <p>Personal Project</p>
