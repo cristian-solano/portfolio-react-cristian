@@ -9,18 +9,6 @@
 .container {
   background: linear-gradient(to top, #040115e8, #010b1bd8), url('./Images/bannernew.jpg');
   background-size: cover;
-  height: 1080px;
+  min-height: 100vh;
 
-}
-
-@media (max-width: 1440px) {
-  .container {
-    height: 900px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    height: 800px;
-  }
 }
