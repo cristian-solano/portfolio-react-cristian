@@ -37,7 +37,7 @@ const Portfolio = () => {
           <div className='port-projects-paragraph'>
             <p>Moya's Project</p>
             <label className='port-label'>
-              <a href="https://moya.us/maritime"><p>View page</p> <img src={links} alt="enlace"/></a>
+              <a href="https://moya-maritime.netlify.app/"><p>View page</p> <img src={links} alt="enlace"/></a>
             </label>
           </div>
         </div>
