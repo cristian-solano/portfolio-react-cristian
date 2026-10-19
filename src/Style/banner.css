@@ -309,8 +309,13 @@
     width: 50px;
 }
 
+@media (min-width: 1440px) {
+    .banner-images-tech img {
+        width: 40px;
+    }
+}
 
-@media (max-width: 1400px) {
+@media (max-width: 1439px) {
     .banner-image img {
         width: 250px;
         height: 250px;
