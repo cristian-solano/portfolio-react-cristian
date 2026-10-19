@@ -80,7 +80,7 @@
 }
 
 .banner-paragraph {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,6 +339,13 @@
     .banner-view-items {
         height: 300px;
     }
+
+    .banner-content {
+        padding: 100px 0 0 0;
+        height: 100%;
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 614px) {
@@ -355,13 +362,7 @@
     }
 
 
-    .banner-content {
-        padding: 100px 0 0 0;
-        height: 100%;
-        flex-direction: column;
-
-    }
-
+    
     .banner-button {
         width: 200px;
     }

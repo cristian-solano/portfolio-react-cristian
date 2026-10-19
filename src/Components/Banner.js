@@ -11,6 +11,9 @@ import Js from '../Images/JSIcon.png'
 import htmlIcon from '../Images/htmlIcon.png'
 import cssIcon from '../Images/cssIcon.png'
 import wordpress from '../Images/wordpressIcon.png'
+import angular from '../Images/angular_icon.webp'
+import nodejs from '../Images/node.webp'
+
 
 const Banner = () => {
   return (
@@ -25,7 +28,7 @@ const Banner = () => {
                     </div>
                     <div className='banner-opacity-content'>
                         <img src={age} alt="age"/>
-                        <span>27 years old</span>
+                        <span>1996, 09</span>
                     </div>
                     <div className='banner-opacity-content'>
                         <img src={country} alt="country"/>
@@ -45,6 +48,8 @@ const Banner = () => {
                         <img src={htmlIcon} alt="html"/>
                         <img src={cssIcon} alt="css"/>
                         <img src={wordpress} alt="wordpress"/>
+                        <img src={angular} alt="angular"/>
+                        <img src={nodejs} alt="nodejs"/>
                     </div>
                 </div>
                 <label htmlFor='banner-more' type="button" className='banner-button'>
